@@ -1,9 +1,9 @@
 import { REVIEW } from "../constants"
 import xaviour from "../assets/xaviour.jpeg"
-import customer1 from "../assets/customer1.jpeg"
-import customer2 from "../assets/customer2.jpeg"
-import customer3 from "../assets/customer3.jpeg"
-import customer4 from "../assets/mikeoneonta.jpg"
+import customer1 from "../assets/gordobbqsauce.jpg"
+import customer2 from "../assets/ribstray.jpg"
+import customer3 from "../assets/mikebbq.jpg"
+import customer4 from "../assets/foodtray.jpg"
 import { motion } from "framer-motion"
 
 const containerVariants = {
