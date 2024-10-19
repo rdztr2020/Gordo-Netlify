@@ -5,10 +5,7 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section
-      id="top"
-      className="relative flex h-screen items-center justify-center"
-    >
+    <section className="relative flex h-screen items-center justify-center" id="top">
       <div className="absolute inset-0 -z-29 h-full w-full overflow-hidden">
         <video
           src={video}
