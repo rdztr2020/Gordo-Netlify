@@ -120,8 +120,7 @@ export const REVIEW = {
 };
 
 export const CONTACT = [
-  { key: "address", 
-    value: "Address: 29735 NY-10 Walton NY 13856" },
+  { key: "address", value: "Address: 29735 NY-10 Walton NY 13856"},
   { key: "phone", value: "Phone: (607) 510-0100" },
   { key: "email", value: "Email: gordomike@gordomike.com" },
 ];

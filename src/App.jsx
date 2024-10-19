@@ -6,8 +6,9 @@ import About from './components/About'
 import Mission from './components/Mission'
 import Expertise from './components/Expertise'
 import Reviews from './components/Reviews'
-import ContactSection from './components/ContactSection'
+
 import Footer from './components/Footer'
+import ContactSection2 from './components/ContactSectionTest'
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
       <Mission/>
       <Expertise/>
       <Reviews/>
-      <ContactSection/>
+      
+      <ContactSection2/>
       <Footer/>
     </main>
   )
