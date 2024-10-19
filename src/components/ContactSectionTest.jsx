@@ -18,7 +18,7 @@ const ContactSection2 = () => {
         <p className="text-center text-2xl tracking-tighter lg:text-4xl pt-4 pb-6 text-white">
           Phone
         </p>
-        <p className="text-center text-2xl tracking-tighter lg:text-4xl pb-2"><a href="tel:+6075100100" className="hover:text-sky-700 text-sky-300">(607) 510-0100</a></p>
+        <p className="text-center text-2xl tracking-tighter lg:text-4xl pb-2"><a href="tel:+16075100100" className="hover:text-sky-700 text-sky-300">(607) 510-0100</a></p>
         <p className="text-center text-2xl tracking-tighter lg:text-4xl pt-4 pb-6 text-white">
           Email
         </p>
