@@ -1,4 +1,4 @@
-import missionImg from "../assets/meatsmoke.png";
+import missionImg from "../assets/shortflames.png";
 import mission from "../assets/shortflames.mp4";
 import { MISSION } from "../constants";
 import { motion } from "framer-motion";
