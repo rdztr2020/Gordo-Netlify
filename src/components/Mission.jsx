@@ -1,5 +1,5 @@
-import missionImg from "../assets/mission.jpeg";
-import mission from "../assets/mission.mp4";
+import missionImg from "../assets/meatsmoke.png";
+import mission from "../assets/shortflames.mp4";
 import { MISSION } from "../constants";
 import { motion } from "framer-motion";
 
@@ -19,8 +19,7 @@ const Mission = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
-            poster={missionImg}
-          >
+            poster={missionImg}>
             <source src={mission} type="video/mp4" />
           </motion.video>
           <motion.div
