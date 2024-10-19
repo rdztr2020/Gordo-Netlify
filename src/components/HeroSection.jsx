@@ -1,4 +1,4 @@
-import video from "../assets/flames.mp4";
+import video from "../assets/shortflames.mp4";
 import logo from "../assets/logotransparent2.png";
 import hero from "../assets/flamespost.jpg";
 import { motion } from "framer-motion";
