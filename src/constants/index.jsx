@@ -128,15 +128,15 @@ export const CONTACT = [
 export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://www.facebook.com/groups/414186977978889",
-    icon: <FaFacebook fontSize={40} className="hover:opacity-80"/>,
+    icon: <FaFacebook fontSize={40} className="hover:opacity-80 text-blue-500"/>,
   },
 
   {
     href: "https://www.instagram.com/gordomikesbbq/",
-    icon: <FaInstagram fontSize={40} className="hover:opacity-80" />,
+    icon: <FaInstagram fontSize={40} className="hover:opacity-80 text-orange-500" />,
   },
   {
     href: "https://x.com/",
-    icon: <FaXTwitter fontSize={40} className="hover:opacity-80" />,
+    icon: <FaXTwitter fontSize={40} className="hover:opacity-80 text-white" />,
   },
 ];
