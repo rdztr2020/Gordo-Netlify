@@ -8,18 +8,17 @@ import dish7 from "../assets/dish7.jpeg";
 import dish8 from "../assets/dish8.jpeg";
 import dish9 from "../assets/dish9.jpeg";
 import dish10 from "../assets/dish10.jpeg";
-
-import italian from "../assets/italian.jpeg";
-import japanese from "../assets/japanese.jpeg";
-import indian from "../assets/indian.jpeg";
+import smokedribs from "../assets/meatsmoke2.png";
+import maccheese from "../assets/maccheese.jpg";
+import jackedbeans from "../assets/jackedbeans.jpg";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
+  //{ text: "Dishes", targetId: "dishes" },//
+  { text: "Menu", targetId: "menu" },
   { text: "About", targetId: "about" },
   { text: "Mission", targetId: "mission" },
-  { text: "Expertise", targetId: "expertise" },
   { text: "Reviews", targetId: "reviews" },
   { text: "Contact", targetId: "contact" },
 ];
@@ -27,18 +26,18 @@ export const LINKS = [
 export const DISHES = [
   {
     image: dish1,
-    title: "Spaghetti Carbonara",
-    description: "Creamy pasta with bacon and cheese",
+    title: "Smoked Ribs",
+    description: "Low and Slow Fall off the Bone",
   },
   {
     image: dish2,
-    title: "Chicken Tikka Masala",
-    description: "Indian curry with tender chicken in spicy sauce",
+    title: "Smoked Mac and Cheese",
+    description: "Incredibly creamy and tasty",
   },
   {
     image: dish3,
-    title: "Caprese Salad",
-    description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
+    title: "Jacked Up Beans",
+    description: "Never Disappoints",
   },
   {
     image: dish4,
@@ -91,24 +90,24 @@ export const MISSION =
 export const CUISINES = [
   {
     number: "01.",
-    image: italian,
-    title: "Italian",
+    image: smokedribs,
+    title: "Smoked Ribs",
     description:
-      "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
+      "Low and Slow Fall off the Bone",
   },
   {
     number: "02.",
-    image: japanese,
-    title: "Japanese",
+    image: maccheese,
+    title: "Mac and Cheese",
     description:
-      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
+      "Incredibly creamy and tasty",
   },
   {
     number: "03.",
-    image: indian,
-    title: "Indian",
+    image: jackedbeans,
+    title: "Jacked Up Beans",
     description:
-      "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
+      "Never Disappoints",
   },
 ];
 

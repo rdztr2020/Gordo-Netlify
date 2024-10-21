@@ -1,13 +1,142 @@
 
-const Junk = () => {
-  return (
-    <p className="text-center text-2xl tracking-tighter lg:text-4xl pb-2"><a  className="hover:text-sky-700 text-sky-300 "href="https://www.google.com/maps/place/29735+NY-10,+Walton,+NY+13856/@42.1544303,-75.0907944,16z/data=!4m6!3m5!1s0x89db791c1918ca8f:0x773c8ad49ac947d1!8m2!3d42.1544303!4d-75.0907944!16s%2Fg%2F11rkcd0mzy">
-        29735 NY-10<br/>
-        Walton NY<br/>
-        13856<br/>
-        </a>
-        </p>
-  )
-}
+import dish1 from "../assets/dish1.jpeg";
+import dish2 from "../assets/dish2.jpeg";
+import dish3 from "../assets/dish3.jpeg";
+import dish4 from "../assets/dish4.jpeg";
+import dish5 from "../assets/dish5.jpeg";
+import dish6 from "../assets/dish6.jpeg";
+import dish7 from "../assets/dish7.jpeg";
+import dish8 from "../assets/dish8.jpeg";
+import dish9 from "../assets/dish9.jpeg";
+import dish10 from "../assets/dish10.jpeg";
+import italian from "../assets/italian.jpeg";
+import japanese from "../assets/japanese.jpeg";
+import indian from "../assets/indian.jpeg";
 
-export default Junk
+import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
+
+export const LINKS = [
+  { text: "Dishes", targetId: "dishes" },
+  { text: "About", targetId: "about" },
+  { text: "Mission", targetId: "mission" },
+  { text: "Expertise", targetId: "expertise" },
+  { text: "Reviews", targetId: "reviews" },
+  { text: "Contact", targetId: "contact" },
+];
+
+export const DISHES = [
+  {
+    image: dish1,
+    title: "Spaghetti Carbonara",
+    description: "Creamy pasta with bacon and cheese",
+  },
+  {
+    image: dish2,
+    title: "Chicken Tikka Masala",
+    description: "Indian curry with tender chicken in spicy sauce",
+  },
+  {
+    image: dish3,
+    title: "Caprese Salad",
+    description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
+  },
+  {
+    image: dish4,
+    title: "Sushi Roll",
+    description: "Assorted seafood and vegetables wrapped in seaweed and rice",
+  },
+  {
+    image: dish5,
+    title: "Chocolate Lava Cake",
+    description: "Decadent chocolate cake with a gooey center",
+  },
+  {
+    image: dish6,
+    title: "Greek Salad",
+    description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
+  },
+  {
+    image: dish7,
+    title: "Pad Thai",
+    description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+  },
+  {
+    image: dish8,
+    title: "Peking Duck",
+    description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
+  },
+  {
+    image: dish9,
+    title: "Beef Wellington",
+    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
+  },
+  {
+    image: dish10,
+    title: "Tiramisu",
+    description:
+      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
+  },
+];
+
+export const ABOUT = {
+  header: "We love cooking!",
+  content:
+    `At Gordo Mikes we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. 
+    Experience Gordo Mikes where every meal is a masterpiece.`,
+};
+
+export const MISSION =
+  "At our restaurant, our mission is to create delicious and memorable dining experiences.";
+
+export const CUISINES = [
+  {
+    number: "01.",
+    image: italian,
+    title: "Italian",
+    description:
+      "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
+  },
+  {
+    number: "02.",
+    image: japanese,
+    title: "Japanese",
+    description:
+      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
+  },
+  {
+    number: "03.",
+    image: indian,
+    title: "Indian",
+    description:
+      "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
+  },
+];
+
+export const REVIEW = {
+  name: "Stephen Lee",
+  profession: "Food Critic",
+  content:
+    "“As a seasoned food critic, my expectations are always high when stepping into a new dining establishment. Gordo Mikes BBQ, with its unassuming exterior, promised a unique culinary experience from the moment I walked in. And I must say, it delivered beyond my expectations.”",
+};
+
+export const CONTACT = [
+  { key: "address", value: "Address: 29735 NY-10 Walton NY 13856"},
+  { key: "phone", value: "Phone: (607) 510-0100" },
+  { key: "email", value: "Email: gordomike@gordomike.com" },
+];
+
+export const SOCIAL_MEDIA_LINKS = [
+  {
+    href: "https://www.facebook.com/groups/414186977978889",
+    icon: <FaFacebook fontSize={40} className="hover:opacity-80 text-blue-500"/>,
+  },
+
+  {
+    href: "https://www.instagram.com/gordomikesbbq/",
+    icon: <FaInstagram fontSize={40} className="hover:opacity-80 text-orange-500" />,
+  },
+  {
+    href: "https://x.com/",
+    icon: <FaXTwitter fontSize={40} className="hover:opacity-80 text-white" />,
+  },
+];

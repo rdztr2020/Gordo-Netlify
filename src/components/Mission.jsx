@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Mission = () => {
   return (
     <section id="mission">
-      <div className="container mx-auto text-center rounded-3xl">
+      <div className="container mx-auto text-center rounded-3xl mt-8">
         <h2 className="mb-8 text-3xl lg:text-4xl">Our Mission</h2>
         <div className="relative flex items-center justify-center rounded-3xl">
           <motion.video
