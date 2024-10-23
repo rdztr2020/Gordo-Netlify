@@ -132,7 +132,7 @@ export const SOCIAL_MEDIA_LINKS = [
 
   {
     href: "https://www.instagram.com/gordomikesbbq/",
-    icon: <FaInstagram fontSize={40} className="hover:opacity-80 text-orange-500" />,
+    icon: <FaInstagram fontSize={40} className="fa fa-instagram hover:opacity-80 bg-color-my-gradiant" />,
   },
   {
     href: "https://x.com/",
