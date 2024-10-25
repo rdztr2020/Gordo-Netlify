@@ -9,7 +9,7 @@ import dish8 from "../assets/dish8.jpeg";
 import dish9 from "../assets/dish9.jpeg";
 import dish10 from "../assets/dish10.jpeg";
 import smokedribs from "../assets/meatsmoke2.png";
-import maccheese from "../assets/maccheese.jpg";
+import maccheese from "../assets/mikesmac.png";
 import jackedbeans from "../assets/jackedbeans.jpg";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
