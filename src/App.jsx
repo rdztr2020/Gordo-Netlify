@@ -7,6 +7,7 @@ import Menu from "./components/Menu";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
 import ContactSection2 from "./components/ContactSection2";
+import Test from "./components/Test";
 
 
 const App = () => {
@@ -16,8 +17,10 @@ const App = () => {
       <Navbar />
       <Menu />
       <About />
+      
       <Mission />
       <Reviews />
+      <Test/>
       <ContactSection2 />
       <Footer />
       </main>

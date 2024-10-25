@@ -2,7 +2,7 @@ import { REVIEW } from "../constants"
 import xaviour from "../assets/xaviour.jpeg"
 import customer1 from "../assets/gordobbqsauce.jpg"
 import customer2 from "../assets/ribstray.jpg"
-import customer3 from "../assets/mikebbq.jpg"
+import customer3 from "../assets/gordomikegreen.jpg"
 import customer4 from "../assets/foodtray.jpg"
 import { motion } from "framer-motion"
 
