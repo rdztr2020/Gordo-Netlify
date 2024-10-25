@@ -1,5 +1,5 @@
 import video from "../assets/meatsmoke.mp4";
-import logo from "../assets/logotransparent2.png";
+import logo from "../assets/logotransparent.png";
 import hero from "../assets/meatsmoke.png";
 import { motion } from "framer-motion";
 
@@ -18,7 +18,7 @@ const HeroSection = () => {
         ></video>
       </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black" />
-      <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
+      <div className="relative z-20 flex flex-col justify-end pb-20">
         <motion.img
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -27,10 +27,8 @@ const HeroSection = () => {
           alt="Gordo Mikes"
           className="w-full p-4"
         />
-
-        <p className="p-4 text-xl tracking-tighter text-red-700 font-extrabold">
-          LOW & SLOW
-        </p>
+        
+        
       </div>
     </section>
   );
