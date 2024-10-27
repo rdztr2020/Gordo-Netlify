@@ -23,8 +23,8 @@ const Bbqsauce = () => {
               “Sweet and Heat”
             </p>
             <br />
-            <p className="text-lg text-center font-bold">
-             🔥Only $8 a bottle 🔥
+            <p className="text-md text-center font-bold">
+             🔥Only $8 a bottle🔥
             </p>
             <br />
             <p className="text-md text-center font-bold">
