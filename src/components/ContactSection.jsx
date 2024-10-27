@@ -16,7 +16,7 @@ const ContactSection = () => {
 
         <p className="text-center text-2xl tracking-tighter lg:text-4xl pt-4 pb-8 text-white">
           <button className="bg-blue-600 rounded-lg p-2 hover:scale-105 hover:bg-blue-700">
-            Email<a href="mailto: slee12463@gmail.com"></a>
+            <a href="mailto: slee12463@gmail.com">Email</a>
           </button>
         </p>
         <p className="text-center text-2xl tracking-tighter lg:text-4xl pb-2 text-white">
