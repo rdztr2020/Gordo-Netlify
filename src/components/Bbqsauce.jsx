@@ -1,12 +1,14 @@
 
+
 import gmbbqsauce from "../assets/mikebbq.jpg"
 
 const Bbqsauce = () => {
   return (
-    <main className=" m-auto mt-10 mb-5 max-w-fit">
+    
+    <section className="m-auto mt-10 mb-5 max-w-fit">
       <figure className="md:flex bg-black rounded-xl p-8 md:p-0">
         <img
-          className=" w-24 h-24 md:w-48 md:h-auto rounded-xl mx-auto"
+          className=" w-24 h-24 md:w-64 md:h-auto rounded-xl mx-auto lg:w-80"
           src={gmbbqsauce}
           alt=""
           width="384"
@@ -22,7 +24,7 @@ const Bbqsauce = () => {
             </p>
             <br />
             <p className="text-lg text-center font-bold">
-              8 Dollars a bottle
+             🔥 8 Dollars a bottle 🔥
             </p>
             <br />
             <p className="text-lg text-center font-bold">
@@ -34,14 +36,15 @@ const Bbqsauce = () => {
             
           </blockquote>
           <figcaption className="font-medium">
-            <div className="text-sky-500 dark:text-sky-400 text-center">Gordo Mike</div>
-            <div className="text-slate-400 dark:text-slate-500 text-center">
+            <div className="text-red-600 text-center text-2xl font-bold">Gordo Mike</div>
+            <div className="text-white text-center">
               Owner and Chef
             </div>
           </figcaption>
         </div>
       </figure>
-    </main>
+    </section>
+    
   );
 };
 
