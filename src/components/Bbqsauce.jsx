@@ -19,7 +19,7 @@ const Bbqsauce = () => {
             <p className="text-md font-bold">
               “Gordo Mikes BBQ SAUCE”
             </p>
-            <p className=" text-red-500 text-md  text-center font-medium">
+            <p className=" text-red-600 text-md  text-center font-bold">
               “Sweet and Heat”
             </p>
             <br />

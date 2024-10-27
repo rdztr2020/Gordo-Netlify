@@ -58,7 +58,7 @@ const Navbar = () => {
             <a
               key={index}
               href={`#${link.targetId}`}
-              className="block p-4 uppercase tracking-tighter"
+              className="block p-4 uppercase font-bold tracking-tighter"
               onClick={(e) => handleScroll(e, link.targetId)}
             >
               {link.text}
