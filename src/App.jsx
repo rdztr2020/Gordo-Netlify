@@ -7,7 +7,8 @@ import Menu from "./components/Menu";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
 import ContactSection2 from "./components/ContactSection2";
-import Test from "./components/Test";
+import Bbqsauce from "./components/Bbqsauce";
+
 
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
       <About />
       <Mission />
       <Reviews />
-      <Test/>
+      <Bbqsauce/>
       <ContactSection2 />
       <Footer />
       </main>

@@ -28,7 +28,7 @@ const ItemVariants = {
 
 const Reviews = () => {
   return (
-    <section className='container mx-auto mb-8 mt-12' id='reviews'>
+    <section className='container mx-auto mb-8 mt-10' id='reviews'>
       <motion.div 
       initial="hidden" 
       whileInView="show"
@@ -37,7 +37,7 @@ const Reviews = () => {
       className='flex flex-col'>
         <motion.p 
         variants={ItemVariants}
-        className='text-center  mb-10 text-xl font-light leading-normal tracking-tighter lg:mx-40 lg:mt-40 lg:text-[3.5rem]'>
+        className='text-center  mb-10 text-xl font-light leading-normal tracking-tighter lg:mx-40 lg:mt-20 lg:text-[2.5rem]'>
           {REVIEW.content}
         </motion.p>
         <motion.div 

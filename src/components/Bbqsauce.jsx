@@ -1,7 +1,7 @@
-import nerd from "../assets/nerd.png";
+
 import gmbbqsauce from "../assets/mikebbq.jpg"
 
-const Test = () => {
+const Bbqsauce = () => {
   return (
     <main className=" m-auto mt-10 mb-5 max-w-fit">
       <figure className="md:flex bg-black rounded-xl p-8 md:p-0 dark:bg-slate-800">
@@ -45,4 +45,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Bbqsauce;
