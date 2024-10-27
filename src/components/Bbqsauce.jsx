@@ -24,13 +24,13 @@ const Bbqsauce = () => {
             </p>
             <br />
             <p className="text-lg text-center font-bold">
-             🔥8 Dollars a bottle🔥
+             🔥Only $8 a bottle 🔥
             </p>
             <br />
-            <p className="text-lg text-center font-bold">
+            <p className="text-md text-center font-bold">
               Call or Text for Availability
             </p>
-            <p className="text-lg text-center font-bold"><a href="tel:+16075100100" className="hover:text-sky-700 text-sky-300" >
+            <p className="text-md text-center font-bold"><a href="tel:+16075100100" className="hover:text-sky-700 text-sky-300" >
               (607) 510-0100</a>
             </p>
             
