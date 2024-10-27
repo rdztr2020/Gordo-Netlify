@@ -6,7 +6,7 @@ import Mission from "./components/Mission";
 import Menu from "./components/Menu";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
-import ContactSection2 from "./components/ContactSection2";
+import ContactSection from "./components/ContactSection";
 import Bbqsauce from "./components/Bbqsauce";
 
 
@@ -21,7 +21,7 @@ const App = () => {
       <Mission />
       <Reviews />
       <Bbqsauce/>
-      <ContactSection2 />
+      <ContactSection />
       <Footer />
       </main>
   );
