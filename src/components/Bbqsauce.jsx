@@ -24,7 +24,7 @@ const Bbqsauce = () => {
             </p>
             <br />
             <p className="text-lg text-center font-bold">
-             🔥 8 Dollars a bottle 🔥
+             🔥8 Dollars a bottle🔥
             </p>
             <br />
             <p className="text-lg text-center font-bold">
