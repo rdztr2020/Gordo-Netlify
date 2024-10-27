@@ -54,7 +54,7 @@ const Reviews = () => {
       initial="hidden" 
       whileInView="show" 
       viewport={{once:true}} 
-      className="mt-14 flex flex-col items-center justify-center gap-2 md:flex-row">
+      className="mt-14 flex flex-col items-center justify-center gap-2 md:flex-row sm:flex-row">
         {[customer1,customer2,customer3,customer4].map((customer,index)=>(
           <motion.img 
           variants={ItemVariants}
