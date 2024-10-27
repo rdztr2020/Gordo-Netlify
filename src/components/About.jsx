@@ -33,7 +33,7 @@ const About = () => {
           whileInView={{opacity:1,y:0}}
           viewport={{once:true}}
           transition={{duration:0.6,delay:0.6}}
-          className="m-8 text-2xl text-center leading-relaxed tracking-tight lg:max-w-xl">
+          className="m-8 text-xl text-center leading-relaxed tracking-tight lg:max-w-xl">
             {ABOUT.content}
           </motion.p>
         </div>
