@@ -24,7 +24,7 @@ const ItemVariants = {
 
 const Expertise = () => {
   return (
-    <section id="menu" className="">
+    <section id="menu" className="h-auto mb-8">
       <h2 className="my-8 text-center text-3xl tracking-tighter lg:text-4xl">
         Menu
       </h2>
@@ -36,7 +36,7 @@ const Expertise = () => {
         {CUISINES.map((cuisine, index) => (
           <motion.div
             key={index}
-            className="flex items-center border-b-4 border-dotted 
+            className="flex items-center justify-center border-b-4 border-dotted 
             border-neutral-700/40 py-2"
             variants={ItemVariants}
           >

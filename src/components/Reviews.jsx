@@ -37,7 +37,7 @@ const Reviews = () => {
       className='flex flex-col'>
         <motion.p 
         variants={ItemVariants}
-        className='text-center  mb-10 text-xl font-light leading-normal tracking-tighter lg:mx-40 lg:mt-20 lg:text-[2.5rem]'>
+        className='text-center  mb-10 text-xl font-light tracking-tighter lg:mx-40 lg:mt-20 lg:text-[2.5rem]'>
           {REVIEW.content}
         </motion.p>
         <motion.div 

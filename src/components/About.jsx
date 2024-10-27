@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="container mx-auto mb-8 mt-8" id="about">
+    <section className="container mx-auto mb-8 mt-2" id="about">
       <h2 className="mb-12 text-center text-3xl tracking-tighter lg:text-4xl">
         About Us
       </h2>
@@ -33,7 +33,7 @@ const About = () => {
           whileInView={{opacity:1,y:0}}
           viewport={{once:true}}
           transition={{duration:0.6,delay:0.6}}
-          className="m-6 text-xl text-center leading-relaxed tracking-tighter lg:max-w-xl">
+          className="m-6 text-xl text-center tracking-tighter lg:max-w-xl">
             {ABOUT.content}
           </motion.p>
         </div>
