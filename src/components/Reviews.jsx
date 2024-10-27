@@ -58,7 +58,7 @@ const Reviews = () => {
         {[customer1,customer2,customer3,customer4].map((customer,index)=>(
           <motion.img 
           variants={ItemVariants}
-          key={index} src={customer} alt="customer" className="h-[300px] w-[200px] roundeed-br-3xl rounded-tl-3xl object-cover"/>
+          key={index} src={customer} alt="customer" className="h-[200] w-[200px] roundeed-br-3xl rounded-tl-3xl object-cover "/>
              ))}
       </motion.div>
     </section>

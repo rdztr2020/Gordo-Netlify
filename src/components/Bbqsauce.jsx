@@ -4,7 +4,7 @@ import gmbbqsauce from "../assets/mikebbq.jpg"
 const Bbqsauce = () => {
   return (
     <main className=" m-auto mt-10 mb-5 max-w-fit">
-      <figure className="md:flex bg-black rounded-xl p-8 md:p-0 dark:bg-slate-800">
+      <figure className="md:flex bg-black rounded-xl p-8 md:p-0">
         <img
           className=" w-24 h-24 md:w-48 md:h-auto rounded-xl mx-auto"
           src={gmbbqsauce}
