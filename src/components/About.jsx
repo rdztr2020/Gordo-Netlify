@@ -11,7 +11,7 @@ const About = () => {
       </h2>
       <div className="flex flex-wrap">
         <div className="w-full p-4 lg:w-1/2">
-          <img src={about} className="rounded-3xl lg:-rotate-3" />
+          <img src={about} alt="Trays to Go image" className="rounded-3xl lg:-rotate-3" />
         </div>
         <div className="w-full px-2 lg:w-1/2">
           <motion.h2 

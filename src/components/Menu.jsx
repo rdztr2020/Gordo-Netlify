@@ -22,7 +22,7 @@ const ItemVariants = {
   }
 }
 
-const Expertise = () => {
+const Menu = () => {
   return (
     <section id="menu" className="h-auto mb-8">
       <h2 className="my-8 text-center text-3xl tracking-tighter lg:text-4xl">
@@ -59,4 +59,4 @@ const Expertise = () => {
   );
 };
 
-export default Expertise;
+export default Menu;

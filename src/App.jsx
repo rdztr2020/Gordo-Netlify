@@ -1,6 +1,5 @@
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-//import Dishes from "./components/Dishes";//
 import About from "./components/About";
 import Mission from "./components/Mission";
 import Menu from "./components/Menu";
@@ -8,8 +7,6 @@ import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
 import ContactSection from "./components/ContactSection";
 import Bbqsauce from "./components/Bbqsauce";
-
-
 
 const App = () => {
   return (
@@ -20,10 +17,10 @@ const App = () => {
       <About />
       <Mission />
       <Reviews />
-      <Bbqsauce/>
+      <Bbqsauce />
       <ContactSection />
       <Footer />
-      </main>
+    </main>
   );
 };
 
