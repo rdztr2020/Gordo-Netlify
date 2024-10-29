@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-4 z-50 flex w-full flex-col items-center justify-center">
-      <div className="flex w-full items-center justify-between overflow-y-hidden p-2 backdrop-blur-sm lg:m-2 lg:w-[50rem]
+      <div className="flex w-full items-center justify-between overflow-y-hidden p-2 backdrop-blur-none lg:m-2 lg:w-[50rem]
       lg:rounded-full lg:shadow-lg"><a href="#">
         <img src={logo} alt="logo" width={150} height={150} /></a>
         <div className="hidden space-x-6 lg:flex">
