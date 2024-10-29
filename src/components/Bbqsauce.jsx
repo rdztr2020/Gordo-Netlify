@@ -1,6 +1,6 @@
 
 
-import gmbbqsauce from "../assets/mikebbq.jpg"
+import gmbbqsauce from "../assets/sauceontable.jpg"
 
 const Bbqsauce = () => {
   return (
@@ -8,7 +8,7 @@ const Bbqsauce = () => {
     <section className="m-auto mt-10 mb-5 max-w-fit">
       <figure className="md:flex bg-black rounded-xl p-8 md:p-0">
         <img
-          className=" w-24 h-24 md:w-64 md:h-auto rounded-xl mx-auto lg:w-80"
+          className=" w-24 h-24 md:w-64 md:h-auto rounded-3xl mx-auto lg:min-w-96"
           src={gmbbqsauce}
           alt=""
           width="384"
