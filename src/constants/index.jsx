@@ -1,16 +1,8 @@
-import dish1 from "../assets/dish1.jpeg";
-import dish2 from "../assets/dish2.jpeg";
-import dish3 from "../assets/dish3.jpeg";
-import dish4 from "../assets/dish4.jpeg";
-import dish5 from "../assets/dish5.jpeg";
-import dish6 from "../assets/dish6.jpeg";
-import dish7 from "../assets/dish7.jpeg";
-import dish8 from "../assets/dish8.jpeg";
-import dish9 from "../assets/dish9.jpeg";
-import dish10 from "../assets/dish10.jpeg";
-import smokedribs from "../assets/meatsmoke2.png";
-import maccheese from "../assets/mikesmac.png";
-import jackedbeans from "../assets/jackedbeans.jpg";
+
+
+import smokedribs from "../assets/meatsmokesize2.png";
+import maccheese from "../assets/mikesmac2.png";
+import jackedbeans from "../assets/jackedbeans2.jpg";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
@@ -25,56 +17,21 @@ export const LINKS = [
 
 export const DISHES = [
   {
-    image: dish1,
+    image: smokedribs,
     title: "Smoked Ribs",
     description: "Low and Slow Fall off the Bone",
   },
   {
-    image: dish2,
+    image: maccheese,
     title: "Smoked Mac and Cheese",
     description: "Incredibly creamy and tasty",
   },
   {
-    image: dish3,
+    image: jackedbeans,
     title: "Jacked Up Beans",
     description: "Never Disappoints",
   },
-  {
-    image: dish4,
-    title: "Sushi Roll",
-    description: "Assorted seafood and vegetables wrapped in seaweed and rice",
-  },
-  {
-    image: dish5,
-    title: "Chocolate Lava Cake",
-    description: "Decadent chocolate cake with a gooey center",
-  },
-  {
-    image: dish6,
-    title: "Greek Salad",
-    description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
-  },
-  {
-    image: dish7,
-    title: "Pad Thai",
-    description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
-  },
-  {
-    image: dish8,
-    title: "Peking Duck",
-    description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
-  },
-  {
-    image: dish9,
-    title: "Beef Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
-  },
-  {
-    image: dish10,
-    title: "Tiramisu",
-    description:
-      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
-  },
+  
 ];
 
 export const ABOUT = {
