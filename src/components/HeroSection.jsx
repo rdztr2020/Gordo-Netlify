@@ -18,16 +18,16 @@ const HeroSection = () => {
         ></video>
       </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black" />
-      <div className="relative z-20 flex flex-col justify-end pb-20">
+      <div className="relative z-20 flex h-screen flex-col justify-end ">
         <motion.img
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 0 }}
+          animate={{ opacity: 1, y: -120}}
           transition={{ duration: 2 }}
           src={logo}
           alt="Gordo Mikes"
           className="w-full p-4"
         />
-        
+
         
       </div>
     </section>
